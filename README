@@ -1,0 +1,11 @@
+El autor del codigo es Wolph Ronald Shwagger Paul Fils
+
+Contiene un archivo bici_model.ipynb: Ese notebook contiene los análisis exploratorio y predictivo correspondiente al problema.
+
+Un archivo Dockerfile que empaqueta en una imagen docker todo el código y las dependencias el código.
+
+Las dependencias se especifican en el archivo requirements.txt
+
+Para empaquetar el código hay que ejecutar la linea de comando: docker build --name .
+
+EL archivo sample_submission.csv contiene las etiquetas resultantes del modelo al pasarlo el conjunto de datos test_set.csv.
